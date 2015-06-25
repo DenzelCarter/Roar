@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D26DD81B3B528F0016F077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DD71B3B528F0016F077 /* AppDelegate.swift */; };
+		06D26DDB1B3B528F0016F077 /* Roar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DD91B3B528F0016F077 /* Roar.xcdatamodeld */; };
+		06D26DDD1B3B528F0016F077 /* NoteTakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DDC1B3B528F0016F077 /* NoteTakerViewController.swift */; };
+		06D26DE01B3B528F0016F077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D26DDE1B3B528F0016F077 /* Main.storyboard */; };
+		06D26DE21B3B528F0016F077 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06D26DE11B3B528F0016F077 /* Images.xcassets */; };
+		06D26DE51B3B528F0016F077 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 06D26DE31B3B528F0016F077 /* LaunchScreen.xib */; };
+		06D26DF11B3B528F0016F077 /* RoarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DF01B3B528F0016F077 /* RoarTests.swift */; };
+		06D26DFB1B3BB0150016F077 /* cliche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06D26DFA1B3BB0150016F077 /* cliche.mp3 */; };
+		06D26DFD1B3BBC640016F077 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DFC1B3BBC640016F077 /* NewNoteViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06D26DEB1B3B528F0016F077 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06D26DCA1B3B528F0016F077 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06D26DD11B3B528F0016F077;
+			remoteInfo = Roar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06D26DD21B3B528F0016F077 /* Roar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D26DD61B3B528F0016F077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D26DD71B3B528F0016F077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06D26DDA1B3B528F0016F077 /* Roar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Roar.xcdatamodel; sourceTree = "<group>"; };
+		06D26DDC1B3B528F0016F077 /* NoteTakerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTakerViewController.swift; sourceTree = "<group>"; };
+		06D26DDF1B3B528F0016F077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06D26DE11B3B528F0016F077 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		06D26DE41B3B528F0016F077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		06D26DEA1B3B528F0016F077 /* RoarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06D26DEF1B3B528F0016F077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06D26DF01B3B528F0016F077 /* RoarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoarTests.swift; sourceTree = "<group>"; };
+		06D26DFA1B3BB0150016F077 /* cliche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cliche.mp3; sourceTree = "<group>"; };
+		06D26DFC1B3BBC640016F077 /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06D26DCF1B3B528F0016F077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D26DE71B3B528F0016F077 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06D26DC91B3B528F0016F077 = {
+			isa = PBXGroup;
+			children = (
+				06D26DD41B3B528F0016F077 /* Roar */,
+				06D26DED1B3B528F0016F077 /* RoarTests */,
+				06D26DD31B3B528F0016F077 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06D26DD31B3B528F0016F077 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06D26DD21B3B528F0016F077 /* Roar.app */,
+				06D26DEA1B3B528F0016F077 /* RoarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06D26DD41B3B528F0016F077 /* Roar */ = {
+			isa = PBXGroup;
+			children = (
+				06D26DFA1B3BB0150016F077 /* cliche.mp3 */,
+				06D26DD71B3B528F0016F077 /* AppDelegate.swift */,
+				06D26DDC1B3B528F0016F077 /* NoteTakerViewController.swift */,
+				06D26DDE1B3B528F0016F077 /* Main.storyboard */,
+				06D26DFC1B3BBC640016F077 /* NewNoteViewController.swift */,
+				06D26DE11B3B528F0016F077 /* Images.xcassets */,
+				06D26DE31B3B528F0016F077 /* LaunchScreen.xib */,
+				06D26DD91B3B528F0016F077 /* Roar.xcdatamodeld */,
+				06D26DD51B3B528F0016F077 /* Supporting Files */,
+			);
+			path = Roar;
+			sourceTree = "<group>";
+		};
+		06D26DD51B3B528F0016F077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06D26DD61B3B528F0016F077 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06D26DED1B3B528F0016F077 /* RoarTests */ = {
+			isa = PBXGroup;
+			children = (
+				06D26DF01B3B528F0016F077 /* RoarTests.swift */,
+				06D26DEE1B3B528F0016F077 /* Supporting Files */,
+			);
+			path = RoarTests;
+			sourceTree = "<group>";
+		};
+		06D26DEE1B3B528F0016F077 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06D26DEF1B3B528F0016F077 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06D26DD11B3B528F0016F077 /* Roar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D26DF41B3B528F0016F077 /* Build configuration list for PBXNativeTarget "Roar" */;
+			buildPhases = (
+				06D26DCE1B3B528F0016F077 /* Sources */,
+				06D26DCF1B3B528F0016F077 /* Frameworks */,
+				06D26DD01B3B528F0016F077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roar;
+			productName = Roar;
+			productReference = 06D26DD21B3B528F0016F077 /* Roar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06D26DE91B3B528F0016F077 /* RoarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06D26DF71B3B528F0016F077 /* Build configuration list for PBXNativeTarget "RoarTests" */;
+			buildPhases = (
+				06D26DE61B3B528F0016F077 /* Sources */,
+				06D26DE71B3B528F0016F077 /* Frameworks */,
+				06D26DE81B3B528F0016F077 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06D26DEC1B3B528F0016F077 /* PBXTargetDependency */,
+			);
+			name = RoarTests;
+			productName = RoarTests;
+			productReference = 06D26DEA1B3B528F0016F077 /* RoarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06D26DCA1B3B528F0016F077 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = BearBrosDevelopment;
+				TargetAttributes = {
+					06D26DD11B3B528F0016F077 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					06D26DE91B3B528F0016F077 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 06D26DD11B3B528F0016F077;
+					};
+				};
+			};
+			buildConfigurationList = 06D26DCD1B3B528F0016F077 /* Build configuration list for PBXProject "Roar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06D26DC91B3B528F0016F077;
+			productRefGroup = 06D26DD31B3B528F0016F077 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06D26DD11B3B528F0016F077 /* Roar */,
+				06D26DE91B3B528F0016F077 /* RoarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06D26DD01B3B528F0016F077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D26DFB1B3BB0150016F077 /* cliche.mp3 in Resources */,
+				06D26DE01B3B528F0016F077 /* Main.storyboard in Resources */,
+				06D26DE51B3B528F0016F077 /* LaunchScreen.xib in Resources */,
+				06D26DE21B3B528F0016F077 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D26DE81B3B528F0016F077 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06D26DCE1B3B528F0016F077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D26DDD1B3B528F0016F077 /* NoteTakerViewController.swift in Sources */,
+				06D26DFD1B3BBC640016F077 /* NewNoteViewController.swift in Sources */,
+				06D26DD81B3B528F0016F077 /* AppDelegate.swift in Sources */,
+				06D26DDB1B3B528F0016F077 /* Roar.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06D26DE61B3B528F0016F077 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D26DF11B3B528F0016F077 /* RoarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06D26DEC1B3B528F0016F077 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06D26DD11B3B528F0016F077 /* Roar */;
+			targetProxy = 06D26DEB1B3B528F0016F077 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06D26DDE1B3B528F0016F077 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D26DDF1B3B528F0016F077 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06D26DE31B3B528F0016F077 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06D26DE41B3B528F0016F077 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06D26DF21B3B528F0016F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06D26DF31B3B528F0016F077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06D26DF51B3B528F0016F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06D26DF61B3B528F0016F077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Roar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06D26DF81B3B528F0016F077 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roar.app/Roar";
+			};
+			name = Debug;
+		};
+		06D26DF91B3B528F0016F077 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RoarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Roar.app/Roar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06D26DCD1B3B528F0016F077 /* Build configuration list for PBXProject "Roar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D26DF21B3B528F0016F077 /* Debug */,
+				06D26DF31B3B528F0016F077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06D26DF41B3B528F0016F077 /* Build configuration list for PBXNativeTarget "Roar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D26DF51B3B528F0016F077 /* Debug */,
+				06D26DF61B3B528F0016F077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06D26DF71B3B528F0016F077 /* Build configuration list for PBXNativeTarget "RoarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D26DF81B3B528F0016F077 /* Debug */,
+				06D26DF91B3B528F0016F077 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		06D26DD91B3B528F0016F077 /* Roar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				06D26DDA1B3B528F0016F077 /* Roar.xcdatamodel */,
+			);
+			currentVersion = 06D26DDA1B3B528F0016F077 /* Roar.xcdatamodel */;
+			path = Roar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 06D26DCA1B3B528F0016F077 /* Project object */;
+}
