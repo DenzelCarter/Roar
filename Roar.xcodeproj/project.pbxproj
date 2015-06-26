@@ -16,6 +16,7 @@
 		06D26DF11B3B528F0016F077 /* RoarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DF01B3B528F0016F077 /* RoarTests.swift */; };
 		06D26DFB1B3BB0150016F077 /* cliche.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 06D26DFA1B3BB0150016F077 /* cliche.mp3 */; };
 		06D26DFD1B3BBC640016F077 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DFC1B3BBC640016F077 /* NewNoteViewController.swift */; };
+		06D26DFF1B3CB6F70016F077 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DFE1B3CB6F70016F077 /* Note.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		06D26DF01B3B528F0016F077 /* RoarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoarTests.swift; sourceTree = "<group>"; };
 		06D26DFA1B3BB0150016F077 /* cliche.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cliche.mp3; sourceTree = "<group>"; };
 		06D26DFC1B3BBC640016F077 /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
+		06D26DFE1B3CB6F70016F077 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				06D26DFA1B3BB0150016F077 /* cliche.mp3 */,
+				06D26DFE1B3CB6F70016F077 /* Note.swift */,
 				06D26DD71B3B528F0016F077 /* AppDelegate.swift */,
 				06D26DDC1B3B528F0016F077 /* NoteTakerViewController.swift */,
 				06D26DDE1B3B528F0016F077 /* Main.storyboard */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06D26DFF1B3CB6F70016F077 /* Note.swift in Sources */,
 				06D26DDD1B3B528F0016F077 /* NoteTakerViewController.swift in Sources */,
 				06D26DFD1B3BBC640016F077 /* NewNoteViewController.swift in Sources */,
 				06D26DD81B3B528F0016F077 /* AppDelegate.swift in Sources */,

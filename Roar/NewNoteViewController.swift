@@ -8,11 +8,13 @@
 
 import UIKit
 import AVFoundation
+import CoreData
 
 
 class NewNoteViewController: UIViewController {
     @IBOutlet var noteTextField: UITextField!
     @IBOutlet var recordOutlet: UIButton!
+    
     var audioRecorder: AVAudioRecorder
     var audioURL: String
     
@@ -53,11 +55,25 @@ class NewNoteViewController: UIViewController {
     }
     
     @IBAction func save_click(sender: AnyObject) {
+        var context = (UIApplication.sharedApplication().delegate as! AppDelegate).managedObjectContext!
+        var note = NSEntityDescription.insertNewObjectForEntityForName("Note", inManagedObjectContext: context) as! Note
+        note.name = noteTextField.text
+        note.url = audioURL
+        context.save(nil)
         self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     
     @IBAction func record_click(sender: AnyObject) {
+        
+        if audioRecorder.recording {
+            audioRecorder.stop()
+        }else{
+            var session = AVAudioSession.sharedInstance()
+            session.setActive(true, error: nil)
+            audioRecorder.record()
+            
+        }
         
     }
     
