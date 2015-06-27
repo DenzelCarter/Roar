@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>0F576446-6F15-4AD6-85B6-BBD45050511C</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Roar</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DBBB574F0685666A5400B8CDB8288B0B793D5582</key>
 		<string>https://github.com/DenzelCarter/Roar.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Roar.xcodeproj/project.xcworkspace</string>
+	<string>Roar.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DBBB574F0685666A5400B8CDB8288B0B793D5582</key>

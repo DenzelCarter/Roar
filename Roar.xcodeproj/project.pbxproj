@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06204B591B3E425D006EC5FF /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 06204B581B3E425D006EC5FF /* microphone.png */; };
+		06204B5B1B3E426C006EC5FF /* microphoneDepressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 06204B5A1B3E426C006EC5FF /* microphoneDepressed.png */; };
 		06D26DD81B3B528F0016F077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DD71B3B528F0016F077 /* AppDelegate.swift */; };
 		06D26DDB1B3B528F0016F077 /* Roar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DD91B3B528F0016F077 /* Roar.xcdatamodeld */; };
 		06D26DDD1B3B528F0016F077 /* NoteTakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D26DDC1B3B528F0016F077 /* NoteTakerViewController.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06204B581B3E425D006EC5FF /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
+		06204B5A1B3E426C006EC5FF /* microphoneDepressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphoneDepressed.png; sourceTree = "<group>"; };
 		06D26DD21B3B528F0016F077 /* Roar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06D26DD61B3B528F0016F077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06D26DD71B3B528F0016F077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,8 +89,10 @@
 		06D26DD41B3B528F0016F077 /* Roar */ = {
 			isa = PBXGroup;
 			children = (
+				06204B581B3E425D006EC5FF /* microphone.png */,
 				06D26DFA1B3BB0150016F077 /* cliche.mp3 */,
 				06D26DFE1B3CB6F70016F077 /* Note.swift */,
+				06204B5A1B3E426C006EC5FF /* microphoneDepressed.png */,
 				06D26DD71B3B528F0016F077 /* AppDelegate.swift */,
 				06D26DDC1B3B528F0016F077 /* NoteTakerViewController.swift */,
 				06D26DDE1B3B528F0016F077 /* Main.storyboard */,
@@ -207,7 +213,9 @@
 				06D26DFB1B3BB0150016F077 /* cliche.mp3 in Resources */,
 				06D26DE01B3B528F0016F077 /* Main.storyboard in Resources */,
 				06D26DE51B3B528F0016F077 /* LaunchScreen.xib in Resources */,
+				06204B5B1B3E426C006EC5FF /* microphoneDepressed.png in Resources */,
 				06D26DE21B3B528F0016F077 /* Images.xcassets in Resources */,
+				06204B591B3E425D006EC5FF /* microphone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +433,7 @@
 				06D26DF61B3B528F0016F077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06D26DF71B3B528F0016F077 /* Build configuration list for PBXNativeTarget "RoarTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +442,7 @@
 				06D26DF91B3B528F0016F077 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
